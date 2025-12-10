@@ -15,12 +15,12 @@
 * **Оркестратор:** Единая платформа управления (Smartlead или Instantly.ai).
 
 ## **2\. Технический стек**
-
-| Компонент | Решение | Обоснование |  
-| DNS & Domains | Cloudflare (Free Tier) | Быстрое управление DNS через API. Лучшая защита от DDoS. |  
-| Sending Tool | Smartlead.ai / Instantly | "Умная" ротация ящиков, Unified Inbox, авто-прогрев (Warm-up). |  
-| Infra Provider | G-Suite \+ Mailforge | Баланс цены и качества доставки. |  
-| Automation | Python / n8n | Мониторинг здоровья доменов, алерты в Telegram при падении метрик. |
+| Компонент      | Решение                  | Обоснование                                                        |
+|----------------|--------------------------|--------------------------------------------------------------------|
+| DNS & Domains  | Cloudflare (Free Tier)   | ыстрое управление DNS через API. Лучшая защита от DDoS.            |
+| Sending Tool   | Smartlead.ai / Instantly | "Умная" ротация ящиков, Unified Inbox, авто-прогрев (Warm-up).     |
+| Infra Provider | G-Suite + Mailforge      | Баланс цены и качества доставки.                                   |
+| Automation     | Python / n8n             | Мониторинг здоровья доменов, алерты в Telegram при падении метрик. |
 
 ### **Настройки DNS (Critical)**
 
